@@ -1,2 +1,11 @@
 # STM32L073-FreeRTOS-RTC
-RTC周期唤醒输出时间
+
+#Function：Printf the RTC real time periodly.
+
+#Periph：RTC、USART5
+#RTOS: FreeRTOS
+
+Attention:
+1.SYS: Systick
+2.HCLK MAX: <=2MHZ(LSE)
+
